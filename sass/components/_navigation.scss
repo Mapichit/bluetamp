@@ -1,6 +1,10 @@
 .navigation {
     height: 0;
 
+    &__link{
+        display: none;
+    }
+
     &__bar{
 
       min-height: 8vh;
@@ -35,8 +39,6 @@
     }
 
     @include respond(phone){
-    
-
     &__button {
 
 
