@@ -1,0 +1,38 @@
+.footer{
+    padding: 10rem 0;
+    background-color: #3C342F;
+    text-align: center;
+    color: white;
+
+    &__links{
+        display: inline-block;
+    }
+
+    &__list{
+        list-style: none; 
+        
+    }
+
+    &__item{
+        display: inline-block;
+        font-size: 3rem;
+        transition: transform .2s;
+
+        &:hover{
+            transform: scale(1.2);
+        }
+        
+
+        & a{
+          
+            color: inherit;
+        }
+        
+        
+        
+        &:not(:last-child){
+            margin-right: 3rem;
+        }
+    }
+
+}

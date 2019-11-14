@@ -1,0 +1,50 @@
+.header{
+
+    height: 95vh;
+    background-image: url(../img/header.jpg);
+
+    background-image: linear-gradient(
+
+    to right bottom,
+    rgba(#85a7b2, 0.4),
+    rgba(#4c5f66, 0.4)),
+    url(../img/header.jpg);
+
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-position-y: 70%;
+    background-position-x: 10%;
+    position: relative;
+
+    &__text-box{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        @include respond(tab-port){
+            top: 50%;
+        }
+
+    }
+
+    &__secondary{
+        height: 95vh;
+        background-image: url(../img/menu4.jpg);
+
+        
+        background-size: cover;
+        background-position-y: 35%;
+
+        &__text-box{
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+        }
+    }
+}

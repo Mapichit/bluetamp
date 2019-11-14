@@ -1,0 +1,17 @@
+.menu{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.drinks__item{
+    &__name{
+        font-weight: 700;
+        font-size: 2rem;
+        color: $color-grey-2;
+    }
+
+    &__description{
+        color: $color-grey-1;
+    }
+}

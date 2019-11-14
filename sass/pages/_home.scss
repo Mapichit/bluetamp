@@ -1,0 +1,24 @@
+.section-story{
+    padding: 10rem 0;
+    background-color: $color-grey-light;
+}
+
+.section-menu{
+    padding: 10rem 0;
+    background-color: $color-white;
+}
+
+.section-goals{
+    padding: 10rem 0;
+   
+    background-size: cover;
+    background-position-y: 75%;
+
+    background-image: linear-gradient(
+
+        to right bottom,
+        rgba(#85a7b2, 0.4),
+        rgba(#4c5f66, 0.4)),
+        url(../img/header2.jpg);
+    
+}  
