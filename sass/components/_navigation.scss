@@ -31,6 +31,8 @@
         list-style: none;
         text-align: center;
         width: 100%;
+
+       
         
     }
 
@@ -38,7 +40,7 @@
         position: fixed;
     }
 
-    @include respond(phone){
+    @include respond(tab-port){
     &__button {
 
 
@@ -191,7 +193,7 @@
     width: 100%;
     padding: 3rem 10rem;
 
-    @include respond(phone){
+    @include respond(tab-port){
         display: none;
     }
 
@@ -202,6 +204,7 @@
         padding: 1rem 2.5rem;
         color: $color-white;
         transition: all 0.3s;
+        font-size: 1.8rem;
 
         &:hover{
             color: #85a7b2;
