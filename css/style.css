@@ -140,7 +140,7 @@ body {
     width: 100%; }
   .navigation__background {
     position: fixed; }
-  @media (max-width: 37.5em) {
+  @media (max-width: 56.25em) {
     .navigation__button {
       background-color: #fff;
       height: 6rem;
@@ -236,7 +236,7 @@ body {
   z-index: 10;
   width: 100%;
   padding: 3rem 10rem; }
-  @media (max-width: 37.5em) {
+  @media (max-width: 56.25em) {
     .bar {
       display: none; } }
   .bar__links a {
@@ -245,7 +245,8 @@ body {
     text-align: center;
     padding: 1rem 2.5rem;
     color: #fff;
-    transition: all 0.3s; }
+    transition: all 0.3s;
+    font-size: 1.8rem; }
     .bar__links a:hover {
       color: #85a7b2; }
 
@@ -337,7 +338,7 @@ body {
       text-align: center; }
 
 .footer {
-  padding: 10rem 0;
+  padding: 10rem 0 5rem 0;
   background-color: #3C342F;
   text-align: center;
   color: white; }
